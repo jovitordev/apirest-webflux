@@ -19,6 +19,7 @@ import reactor.util.function.Tuple2;
 import java.util.concurrent.TimeUnit;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class PlaylistController {
 
 	@Autowired
